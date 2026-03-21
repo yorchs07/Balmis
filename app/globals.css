@@ -1,0 +1,46 @@
+@import 'tailwindcss';
+
+:root {
+  --color-primary-dark: #0a1f2e;
+  --color-primary-mid: #163e57;
+  --color-primary-light: #1f4f6b;
+  --color-primary-soft: #6fa3c8;
+  --color-primary-deep: #071826;
+}
+
+.input-style {
+  background-color: rgba(255, 255, 255, 0.08);
+  border: 1px solid rgba(255, 255, 255, 0.2);
+  padding: 0.75rem 1rem;
+  border-radius: 0.5rem;
+  color: white;
+  outline: none;
+  transition: all 0.2s ease;
+}
+
+.input-style::placeholder {
+  color: rgba(255, 255, 255, 1);
+}
+
+.input-style:focus {
+  border-color: #3b82f6;
+  background-color: rgba(255, 255, 255, 0.12);
+  box-shadow: 0 0 0 2px rgba(59, 130, 246, 0.2);
+}
+
+body {
+  margin: 0;
+  padding: 0;
+}
+@keyframes slideIn {
+  from {
+    transform: translateX(100%);
+  }
+  to {
+    transform: translateX(0);
+  }
+}
+
+.animate-slideIn {
+  animation: slideIn 0.3s ease-out;
+}
