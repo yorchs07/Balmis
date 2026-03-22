@@ -52,8 +52,8 @@ to-[var(--color-primary-light)]'
           </p>
 
           <p className='mx-auto text-lg text-slate-200 leading-relaxed'>
-            Su historia nos recuerda algo esencial: la prevención no solo salva
-            vidas, también construye el futuro de la salud.
+            Su historia y su legado nos recuerda algo esencial: la prevención no
+            solo salva vidas, también construye el futuro de la salud.
           </p>
         </div>
 

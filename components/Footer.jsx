@@ -9,11 +9,11 @@ export default function Footer() {
     '
     >
       <div className='max-w-6xl mx-auto text-center'>
-        <p className='text-sm'>© 2026 Proyecto Balmis</p>
-
-        <p className='mt-2 text-white/50'>
-          Consultoría estratégica para organizaciones sanitarias
+        <p className='text-sm'>
+          Auditoría estratégica para organizaciones sanitarias
         </p>
+
+        <p className='mt-2 text-white/50'> © 2026 Balmis Médica S.L.</p>
       </div>
     </footer>
   )

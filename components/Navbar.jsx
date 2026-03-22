@@ -102,7 +102,7 @@ export default function Navbar() {
             </li>
           </ul>
 
-          {/* Mobile button */}
+          {/*Botón móvil*/}
           <button
             onClick={() => setOpen(true)}
             className='md:hidden text-2xl text-slate-800 dark:text-white'
@@ -112,7 +112,7 @@ export default function Navbar() {
         </div>
       </nav>
 
-      {/* Mobile menu */}
+      {/*Menu móvil*/}
       {open && (
         <div
           onClick={() => setOpen(false)}
@@ -128,7 +128,7 @@ export default function Navbar() {
       translate-x-0 animate-slideIn
     '
           >
-            {/* Close */}
+            {/* Cerrar*/}
             <button
               onClick={() => setOpen(false)}
               className='text-white text-2xl self-end'

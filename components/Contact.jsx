@@ -20,7 +20,7 @@ export default function Contact() {
     })
   }
 
-  // ⚠️ IMPORTANTE → async
+  //async
   const handleSubmit = async (e) => {
     e.preventDefault()
     setError('')
