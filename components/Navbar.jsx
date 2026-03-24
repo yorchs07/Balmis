@@ -63,6 +63,21 @@ export default function Navbar() {
             </li>
             <li>
               <a
+                href='#valores'
+                className={`
+  transition font-semibold
+  ${
+    scrolled
+      ? 'text-slate-800 dark:text-white hover:text-blue-500'
+      : 'text-white hover:text-blue-300'
+  }
+`}
+              >
+                Valores
+              </a>
+            </li>
+            <li>
+              <a
                 href='#servicios'
                 className={`
   transition font-semibold
@@ -89,6 +104,21 @@ export default function Navbar() {
 `}
               >
                 Equipo
+              </a>
+            </li>
+            <li>
+              <a
+                href='#colaboradores'
+                className={`
+  transition font-semibold
+  ${
+    scrolled
+      ? 'text-slate-800 dark:text-white hover:text-blue-500'
+      : 'text-white hover:text-blue-300'
+  }
+`}
+              >
+                Colaboradores
               </a>
             </li>
 
@@ -144,6 +174,13 @@ export default function Navbar() {
             >
               Sobre nosotros
             </a>
+            <a
+              onClick={() => setOpen(false)}
+              href='#valores'
+              className='text-white text-lg font-semibold hover:text-blue-300 transition'
+            >
+              Valores
+            </a>
 
             <a
               onClick={() => setOpen(false)}
@@ -159,6 +196,14 @@ export default function Navbar() {
               className='text-white text-lg font-semibold hover:text-blue-300 transition'
             >
               Equipo
+            </a>
+
+            <a
+              onClick={() => setOpen(false)}
+              href='#colaboradores'
+              className='text-white text-lg font-semibold hover:text-blue-300 transition'
+            >
+              Colaboradores
             </a>
 
             <a
