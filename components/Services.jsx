@@ -58,9 +58,9 @@ recomendaciones de actuación.`
       className=' relative
   py-32 px-6
   bg-gradient-to-b
-  from-[var(--color-primary-light)]
+  from-[var(--color-primary-dark)]
   via-[var(--color-primary-mid)]
-  to-[var(--color-primary-dark)]
+  to-[var(--color-primary-soft)]
 '
     >
       <div className='max-w-6xl mx-auto'>

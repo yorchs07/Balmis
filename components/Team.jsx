@@ -35,9 +35,9 @@ export default function Team() {
     <section
       id='equipo'
       className='py-24 px-6 bg-gradient-to-b
-      from-[var(--color-primary-dark)]
+      from-[var(--color-primary-soft)]
       via-[var(--color-primary-mid)]
-      to-[var(--color-primary-light)]'
+      to-[var(--color-primary-dark)]'
     >
       <div className='max-w-6xl mx-auto'>
         <h2 className='text-3xl font-bold text-center mb-16 text-white'>

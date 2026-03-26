@@ -71,9 +71,9 @@ export default function Contact() {
       className='
       py-32 px-6
       bg-gradient-to-b
-      from-[var(--color-primary-light)]
+      from-[var(--color-primary-dark)]
       via-[var(--color-primary-mid)]
-      to-[var(--color-primary-dark)]
+      to-[var(--color-primary-light)]
     '
     >
       <div className='max-w-3xl mx-auto'>

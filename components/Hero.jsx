@@ -45,10 +45,27 @@ to-[var(--color-primary-light)]'
           </h2>
 
           <p className='mx-auto text-lg text-slate-200 leading-relaxed mb-6'>
-            Nuestro nombre está inspirado en Francisco Javier Balmis, el médico
-            español que lideró en 1803 la primera gran misión internacional de
-            salud pública, llevando la vacuna contra la viruela a distintos
-            continentes.
+            A lo largo de la historia, el ámbito militar ha sido un motor
+            silencioso de los grandes avances en higiene y salud pública. Fueron
+            los ejércitos quienes, por necesidad, desarrollaron y sistematizaron
+            por primera vez los protocolos de control de infecciones, la gestión
+            sanitaria en condiciones extremas y los procedimientos de
+            desinfección que hoy reconocemos como fundamentos de la medicina
+            preventiva moderna. En un tiempo en que las epidemias causaban más
+            bajas que los propios conflictos, la sanidad militar española asumió
+            un papel pionero, no solo en el cuidado de sus tropas, sino en la
+            protección de poblaciones enteras. En ese contexto nació una de las
+            gestas sanitarias más extraordinarias de la historia: la Real
+            Expedición Filantrópica de la Vacuna (1803-1810), considerada la
+            primera misión internacional de salud pública de la historia
+            moderna. Una iniciativa impulsada por la Corona española que llevó
+            la vacuna contra la viruela a América, Asia y África, salvando
+            millones de vidas y sentando las bases de lo que hoy entendemos como
+            salud global. Al frente de aquella misión estaba el médico militar
+            Francisco Xavier Balmis. Su nombre representa todo lo que nos
+            inspira: el rigor científico, el compromiso con la prevención y la
+            convicción de que proteger la salud de las personas es, siempre, una
+            misión irrenunciable.
           </p>
 
           <p className='mx-auto text-lg text-slate-200 leading-relaxed'>
