@@ -1,10 +1,11 @@
 import nodemailer from 'nodemailer'
+import { supabase } from '@/lib/supabase'
 
 export async function POST(req) {
   try {
     const { nombre, telefono, email, mensaje } = await req.json()
 
-    // VALIDACIÓN BACKEND
+    //Validación backend
     if (!nombre || !mensaje) {
       return Response.json({ success: false })
     }
@@ -17,7 +18,18 @@ export async function POST(req) {
       return Response.json({ success: false })
     }
 
-    // CONFIGURAR TRANSPORTER
+    //Guardar en Supabase
+    await supabase.from('contacts').insert([
+      {
+        nombre,
+        telefono,
+        email,
+        mensaje,
+        fecha: new Date().toISOString()
+      }
+    ])
+
+    //Configurar transporter
     const transporter = nodemailer.createTransport({
       service: 'gmail',
       auth: {
@@ -26,7 +38,7 @@ export async function POST(req) {
       }
     })
 
-    // ENVIAR EMAIL
+    //Enviar email
     await transporter.sendMail({
       from: `"Formulario Web" <${process.env.EMAIL_USER}>`,
       to: process.env.EMAIL_TO,

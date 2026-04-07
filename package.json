@@ -9,6 +9,7 @@
     "lint": "eslint"
   },
   "dependencies": {
+    "@supabase/supabase-js": "^2.102.1",
     "framer-motion": "^12.38.0",
     "healthicons-react": "^3.5.0",
     "lucide-react": "^0.577.0",
