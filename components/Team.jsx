@@ -9,7 +9,7 @@ export default function Team() {
   const team = [
     {
       name: 'Isabel Pena Yáñez',
-      role: 'Doctora especialista en medicina preventiva',
+      role: 'Médico especialista en medicina preventiva',
       icon: DoctorFemale,
       description:
         'Médico y directora responsable del proyecto. Especialista en medicina Preventiva, con una larga trayectoria en distintos grupos hospitalarios. Referente en acompañamiento de acreditaciones como la JCI.'
@@ -24,10 +24,9 @@ export default function Team() {
     },
     {
       name: 'Juana Venegas',
-      role: 'Especialista sanitaria',
+      role: 'Técnico especialista en medicina preventiva',
       icon: Stethoscope,
-      description:
-        'Texto descriptivo del rol a ocupar por la tercera persona del equipo.'
+      description: `Profesional sanitaria integrada en el equipo de Medicina Preventiva de Balmis Médica. Ha desarrollado gran parte de su trayectoria en unidades de cuidados intensivos pediátricos y neonatales, entornos donde la precisión, el control y la atención al detalle son fundamentales para garantizar la seguridad del paciente. Actualmente orienta su trabajo al ámbito de la bioseguridad ambiental en entornos sanitarios, participando en la supervisión y control de áreas críticas. Su experiencia asistencial le permite aportar una visión clínica rigurosa y consciente, enfocada en crear espacios más seguros para pacientes y profesionales. Concibe su labor como una forma de acompañar a los centros sanitarios desde la cercanía, el orden y la confianza, contribuyendo a mantener estándares de calidad y seguridad alineados con las necesidades reales de cada organización.`
     }
   ]
 

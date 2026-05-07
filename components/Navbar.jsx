@@ -106,6 +106,7 @@ export default function Navbar() {
                 Equipo
               </a>
             </li>
+            {/*
             <li>
               <a
                 href='#colaboradores'
@@ -116,12 +117,12 @@ export default function Navbar() {
       ? 'text-slate-800 dark:text-white hover:text-blue-500'
       : 'text-white hover:text-blue-300'
   }
-`}
+`} 
               >
                 Colaboradores
               </a>
             </li>
-
+*/}
             <li>
               <a
                 href='#contacto'
@@ -197,7 +198,7 @@ export default function Navbar() {
             >
               Equipo
             </a>
-
+            {/*
             <a
               onClick={() => setOpen(false)}
               href='#colaboradores'
@@ -205,6 +206,7 @@ export default function Navbar() {
             >
               Colaboradores
             </a>
+*/}
 
             <a
               onClick={() => setOpen(false)}
